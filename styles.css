@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: glacialindeference;
 }
 
 body {
@@ -9,15 +10,59 @@ body {
 
 .banner {
   color: #fff;
-  background-color: #c00000;
-  height: 400px;
+  max-height: 100vh;
   width: 100%;
 }
 .carousel-item img {
-  max-height: 900px;
+  max-height: 800px;
 }
-.carousel-caption,
-h5,
-p {
+.carousel-caption {
+  color: #fff;
+}
+.carousel-caption h5 {
+  color: #fff;
+}
+.carousel-caption p {
+  color: #fff;
+}
+
+.about-me p {
+  color: #fff;
+}
+
+.card-body h5 {
+  color: #000;
+}
+
+.card-body p {
+  color: #000;
+}
+
+.card-body button {
+  padding: 9px;
+  border-radius: 7px;
+  background-color: #000;
+  color: #fff;
+}
+
+.what-i-do p {
+  color: #fff;
+}
+
+.blogs p {
+  color: #fff;
+}
+.cta {
+  height: 800px;
+  background-color: #ccc;
+}
+
+.cta2 {
+  height: 800px;
+  background-color: #333;
+}
+
+footer {
+  text-align: center;
   color: #fff;
 }
