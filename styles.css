@@ -14,7 +14,7 @@ body {
   width: 100%;
 }
 .carousel-item img {
-  max-height: 800px;
+  max-height: 70vh;
 }
 .carousel-caption {
   color: #fff;
